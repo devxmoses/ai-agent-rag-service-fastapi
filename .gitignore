@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+.env/
+venv/
+env/
+
+# Secrets (if you later create a real .env file)
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor / tooling
+.vscode/
+.claude/
+CLAUDE.md
+
+# OS
+.DS_Store
